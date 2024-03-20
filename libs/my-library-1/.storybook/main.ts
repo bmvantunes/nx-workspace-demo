@@ -6,6 +6,7 @@ const config: StorybookConfig = {
   framework: {
     name: '@storybook/react-vite',
     options: {
+      strictMode: true,
       builder: {
         viteConfigPath: 'vite.config.mts',
       },
